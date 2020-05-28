@@ -1,4 +1,5 @@
 
+
 var i = 0;
 
 setInterval( function() {
@@ -13,31 +14,26 @@ i++;
 $(".h1").text(i);
 }
 
-var j=0;
-
 setInterval( function() {
-  if(j < 4000) {
+  if(i < 4000) {
     setDigit2();
   }
 }, 4);
 
 
 function setDigit2() {
-j++;
-$(".h2").text(j);
+i++;
+$(".h2").text(i);
 }
 
-
-var k=0;
-
 setInterval( function() {
-  if(k < 10000) {
+  if(i < 10000) {
     setDigit3();
   }
 }, 4);
 
 
 function setDigit3() {
-k++;
-$(".h3").text(k);
+i++;
+$(".h3").text(i);
 }
